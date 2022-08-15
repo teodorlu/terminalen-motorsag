@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e # Terminate script when something goes wrong
+
 sleep_time=$1
 shift
 
