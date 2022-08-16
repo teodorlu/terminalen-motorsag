@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
-# USAGE: 
-#   ./message [MESSAGE]
+# Usage: 
+#
+#   ./message [-f FILE_NAME] MESSAGE
 # 
 #   Creates a file with the name "msg-XX.txt" (where XX is a serial number)
 #   in the directory "messages", with the following content:
@@ -20,6 +21,10 @@
 
 set -e
 
+file_name=$(find messages -type f | grep msg- | grep "\d" | sort -r | grep "\d*" -m1 -o)
+
+file_name=$((file_name + 1))
+
 cd ~/terminalen-motorsag/messages
-touch msg-test.txt
-echo $1 > msg-test.txt
+touch msg-$file_name.txt
+echo $1 > msg-$file_name.txt
