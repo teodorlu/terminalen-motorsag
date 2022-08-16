@@ -18,3 +18,8 @@
 #           2   
 #
 
+set -e
+
+cd ~/terminalen-motorsag/messages
+touch msg-test.txt
+echo $1 > msg-test.txt
