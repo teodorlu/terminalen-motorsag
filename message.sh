@@ -6,18 +6,6 @@
 # 
 #   Creates a file with the name "msg-XX.txt" (where XX is a serial number)
 #   in the directory "messages", with the following content:
-#
-#   MESSAGE\n
-#   
-#   Example:
-#       input:
-#           ./message "hei, jeg heter teodor"
-#       output:
-#           a new file "messages/msg-01.txt", with the contents
-#
-#           1   hei, jeg heter teodor
-#           2   
-#
 
 set -e
 
@@ -28,10 +16,27 @@ if [ -z $1 ]; then
     exit 1
 fi
 
-file_name=$(find messages -type f | grep msg- | grep "\d" | sort -r | grep "\d*" -m1 -o)
+# STEPS USED IN CREATING FILE NUMBER:
+# 
+# find messages -type f
+#   - We need to get an overview of what files there are in messages folder.
+# |
+#   - The pipe operator sends the output of the preceding command to the input of the succeeding command.
+# grep "msg-\d"
+#   - Of all files, we only want to have the numbered message files (msg-NN.txt).
+# sort -r
+#   - To get the highest-numbered message file on top, we need to order the files as such.
+# grep "\d*" -m1 -o
+#   - We only want the single message with the highest number, and only the number part.
+#     This is the number we will use to give the correct serial number to the next file.
+# $(...)
+#   - The result of the chain of the commands above must be evaluated and the resulting number returned.
+# $(( $(...) + 1 ))
+#   - The previous file number is incremented by 1 to get the next file number.
+#     This arithmetic operation is evaluated and returned as a number. 
 
-file_name=$((file_name + 1))
+file_number=$(($(find messages -type f | grep "msg-\d" | sort -r | grep "\d*" -m1 -o) + 1))
 
 cd ./messages
-touch msg-$file_name.txt
-echo $@ > msg-$file_name.txt
+touch msg-$file_number.txt
+echo $@ > msg-$file_number.txt
