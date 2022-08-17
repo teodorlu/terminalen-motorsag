@@ -34,4 +34,4 @@ file_name=$((file_name + 1))
 
 cd ./messages
 touch msg-$file_name.txt
-echo $1 > msg-$file_name.txt
+echo $@ > msg-$file_name.txt
