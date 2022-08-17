@@ -20,4 +20,4 @@ file_number=$(date "+%s")
 
 cd ./messages
 touch msg-$file_number.txt
-echo $@ > msg-$file_number.txt
+echo "$USER: $@" > msg-$file_number.txt
