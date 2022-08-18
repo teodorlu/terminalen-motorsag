@@ -1,0 +1,41 @@
+script src="SUPERSLIDESHOW.js"
+script type=javascript
+       superslideshow.init("#slideshow")
+       superslideshow.init("#slideshow")
+
+.init(
+    {
+        element: document.getElementById("#slideshow"),
+        hide: ...
+    }
+)
+
+# Slideshow
+## Slide 1
+innhold
+
+innhold
+
+### Hemmelig {.hemmelig}
+hemmelig innhold
+
+# bruker trykker "p"
+# bruker ser slideshow
+
+div id="slideshow"
+    h1 Slide 1
+    p innhold
+    p innhold
+    h1 Slide 2
+    p innhold
+    p innhold
+
+# første slide
+    h1 Slide 1
+    p innhold
+    p innhold
+
+# Neste slide
+    h1 Slide 2
+    p innhold
+    p innhold
