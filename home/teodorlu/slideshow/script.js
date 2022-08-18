@@ -16,14 +16,31 @@ const view = (slide) => {
   return container
 }
 
+let slideshow = document.getElementById("slideshow");
+
 const state = {current: 0, slides}
 
-let slideshow = document.getElementById("slideshow");
-slideshow.innerHTML = ""
-// slideshow.childNodes = []
+const render = () => {
+  slideshow.innerHTML = ""
+  slideshow.appendChild(view(slides[state.current]))
+}
 
-slideshow.appendChild(view(slides[0]))
+const slideIncrement = (delta) => {
+  if (state.slides[state.current + delta]) {
+    state.current = state.current + delta
+    render()
+  }
+}
 
-// slideshow.innerHTML = view(slides[0]);
+document.addEventListener("keydown", (event) => {
+  if ( event.key === "j" ) {
+    slideIncrement(1)
+  } else if ( event.key === "k" ) {
+    slideIncrement(-1)
+  }
+})
 
-console.log(slideshow)
+// For debugging - catch key codes.
+// document.addEventListener("keydown", (event) => console.log(event))
+
+render()
