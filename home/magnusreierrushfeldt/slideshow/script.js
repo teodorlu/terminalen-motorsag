@@ -33,14 +33,14 @@ const slideIncrement = (delta) => {
 }
 
 document.addEventListener("keydown", (event) => {
-  if ( event.key === "j" ) {
+  if ( event.key === "k" || event.key === "ArrowRight" || event.key === "ArrowDown"  ) {
     slideIncrement(1)
-  } else if ( event.key === "k" ) {
+  } else if ( event.key === "j" || event.key === "ArrowLeft" || event.key === "ArrowUp" ) {
     slideIncrement(-1)
   }
 })
 
 // For debugging - catch key codes.
-document.addEventListener("keydown", (event) => console.log(event))
+// document.addEventListener("keydown", (event) => console.log(event))
 
 render()
