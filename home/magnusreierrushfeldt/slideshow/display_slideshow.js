@@ -1,8 +1,3 @@
-const slides = [
-  { title: "Slide 1", body: "innhold 11\ninnhold 12\n" },
-  { title: "Slide 2", body: "innhold 21\ninnhold 22\n" },
-];
-
 const view = (slide) => {
   const container = document.createElement("div");
   const slideHead = document.createElement("h2");
@@ -18,11 +13,13 @@ const view = (slide) => {
 
 let slideshow = document.getElementById("slideshow");
 
-const state = { current: 0, slides };
+const state = { current: 0, slides: [{ title: "", body: "" }] };
 
 const render = () => {
+  // console.log("before:", state.slides);
   slideshow.innerHTML = "";
-  slideshow.appendChild(view(slides[state.current]));
+  // console.log("after:", state.slides);
+  slideshow.appendChild(view(state.slides[state.current]));
 };
 
 const slideIncrement = (delta) => {
@@ -51,4 +48,9 @@ document.addEventListener("keydown", (event) => {
 // For debugging - catch key codes.
 // document.addEventListener("keydown", (event) => console.log(event))
 
-render();
+document.addEventListener("keydown", (event) => {
+  if (event.key === "p") {
+    state.slides = create_slides(slideshow);
+    render();
+  }
+});
