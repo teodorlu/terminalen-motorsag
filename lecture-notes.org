@@ -1,0 +1,7 @@
+#+title: Lecture Notes
+
+* Innspill fra Ole Jacob
+
+1. ha stor nok tekst
+2. Fjern dritt foran terminalen. Ikke =teodorlu@teod-t490s ~/dev/iterate/terminalen-motorsag (git)-[master] % ./message MOTORSAG=, men =$ ./message MOTORSAG=
+3. Clear mellom hver terminal-invokering.
