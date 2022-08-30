@@ -14,6 +14,7 @@ Du trenger:
 - Github-konto, og git-kommando på terminalen med tilgang til Github-kontoen din
 
 Les videre hvis du lurer på hvordan du får en bash-kompatibel-terminal og fungerende Git.
+Vi setter av litt på starten av workshopen for å hjelpe folk i gang.
 
 ### Oppsett på Linux
 
