@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+while ! "$@"
+do
+    echo WOOPS
+    echo prøver igjen om 1 sek
+    sleep 1
+done
