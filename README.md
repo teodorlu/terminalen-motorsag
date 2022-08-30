@@ -2,7 +2,7 @@ Velkommen til en workshop utenom det vanlige!
 
 # Hvordan løpe med motorsag: terminalen i praksis
 
-På onsdag 7. september skal vi presse grensene for hvor interaktivt det er mulig å bruke terminalen.
+På onsdag 7. september skal vi presse grensene for interaktivitet i terminalen.
 
 Vi fra Iterate gleder oss!
 
