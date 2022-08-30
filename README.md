@@ -1,7 +1,7 @@
 Velkommen til en workshop utenom det vanlige!
 
 <img height="250px" src="https://hybrida.no/static/img/Griff%2C%20drop%20shadow.png" />
-<img src="https://uploads-ssl.webflow.com/5ea18b09bf3bfd55814199f9/5ea18b09bf3bfda137419a00_petri_square_03.gif" />
+<img height="250px" src="https://uploads-ssl.webflow.com/5ea18b09bf3bfd55814199f9/5ea18b09bf3bfda137419a00_petri_square_03.gif" />
 
 # Hvordan løpe med motorsag: terminalen i praksis
 
