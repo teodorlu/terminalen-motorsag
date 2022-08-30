@@ -1,5 +1,7 @@
 Velkommen til en workshop utenom det vanlige!
 
+<img src="https://uploads-ssl.webflow.com/5ea18b09bf3bfd55814199f9/5ea18b09bf3bfda137419a00_petri_square_03.gif"
+
 # Hvordan løpe med motorsag: terminalen i praksis
 
 På onsdag 7. september skal vi presse grensene for interaktivitet i terminalen.
