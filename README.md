@@ -24,6 +24,7 @@ Les videre hvis du lurer på hvordan du får en bash-kompatibel-terminal og fung
 
 - Du kan bruke terminalen som er installert som standard.
 - Følg denne guiden for å autentisere mot Github: https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/GitHub-SSH-Key-Setup-Config-Ubuntu-Linux
+- Ekstra steg på Mac: https://apple.stackexchange.com/questions/48502/how-can-i-permanently-add-my-ssh-private-key-to-keychain-so-it-is-automatically/250572#250572
 
 ### Oppsett på Windows
 
