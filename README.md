@@ -4,7 +4,7 @@ Velkommen til en workshop utenom det vanlige:
 
 På onsdag 7. september skal vi presse grensene for hvor interaktivt det er mulig å bruke terminalen.
 
-Vi i Iterate gleder oss!
+Vi fra Iterate gleder oss!
 
 ## Ting du trenger på workshop
 
