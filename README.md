@@ -2,6 +2,7 @@ Velkommen til en workshop utenom det vanlige!
 
 <span>
 <img height="250px" src="https://hybrida.no/static/img/Griff%2C%20drop%20shadow.png" />
+<div height="100px" width="100px"></div>
 <img height="250px" src="https://uploads-ssl.webflow.com/5ea18b09bf3bfd55814199f9/5ea18b09bf3bfda137419a00_petri_square_03.gif" />
 </span>
 
