@@ -1,4 +1,4 @@
-Velkommen til en workshop utenom det vanlige:
+Velkommen til en workshop utenom det vanlige!
 
 # Hvordan løpe med motorsag: terminalen i praksis
 
