@@ -5,7 +5,7 @@ set -e # Terminate script when something goes wrong
 if [ -z $1 ]; then
     echo "Usage:"
     echo ""
-    echo "  ./realpath.sh PATH"
+    echo "  ./realpath PATH"
     exit 1
 fi
 
