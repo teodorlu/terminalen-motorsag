@@ -2,6 +2,8 @@
 
 if [ "$(uname)" = "Linux" ]; then
     echo "Hello $USER, you Linux hacker!"
-else
+elif [ "$(uname)" = "Darwin" ]; then
     echo "Hello $USER, you Mac magician!"
+else
+    echo "Hello $USER! Where you come from seems to be a mystery."
 fi
