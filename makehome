@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 
 DIR=./home/"$USER"
-DIR_FULLPATH="$(./realpath.sh $DIR)"
-
-echo "I created $DIR_FULLPATH for you :)"
+DIR_FULLPATH="$(./realpath $DIR)"
 
 mkdir -p "$DIR"
 touch "$DIR/.keep"
+echo "I created $DIR_FULLPATH for you :)"

@@ -6,7 +6,7 @@ set -e # Terminate script when something goes wrong
 if [ -z "$1" ]; then
     echo "Usage:"
     echo ""
-    echo "  ./watch.sh SLEEP_TIME COMMAND..."
+    echo "  ./watch SLEEP_TIME COMMAND..."
     exit 1
 else
     echo "no match"
