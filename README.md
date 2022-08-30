@@ -1,7 +1,9 @@
 Velkommen til en workshop utenom det vanlige!
 
-Repo: https://github.com/iterate/terminalen-motorsag/
-Web: https://terminalen-motorsag.app.iterate.no/
+[repo]: https://github.com/iterate/terminalen-motorsag/
+[web]: https://terminalen-motorsag.app.iterate.no/
+
+[Repo][repo] | [Web][web]
 
 &nbsp;
 
