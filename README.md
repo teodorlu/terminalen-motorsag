@@ -12,8 +12,6 @@ Velkommen til en workshop utenom det vanlige!
 
 &nbsp;
 
-&nbsp;
-
 # Hvordan løpe med motorsag: terminalen i praksis
 
 På onsdag 7. september skal vi presse grensene for interaktivitet i terminalen.
