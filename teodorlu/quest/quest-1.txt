@@ -1,0 +1,6 @@
+# Quest 1: Send en vits på tekst-meldingsystemet!
+
+Tips: ta en titt i disse scriptene:
+
+      m-view-messages
+      m-messages
