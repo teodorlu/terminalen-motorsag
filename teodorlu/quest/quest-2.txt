@@ -1,0 +1,47 @@
+# Quest 2: Send meldinger med JSON
+
+Det finnes tekstmeldinger i dette repoet, for eksempel:
+
+    messages/msg-1661885482.txt
+
+For å sende data er det vanligere å bruke et dataformat som JSON enn å bruke ren tekst.
+
+Så kanskje vi kunne brukt Python?
+Vi kan for eksempel bruke dette datafomatet:
+
+    {
+        "username": "teodorlu",
+        "message": "Hei på deg!"
+    }
+
+og lagre i filer som
+
+    messages/msg-1673867794.json
+
+## Program for å sende en JSON-melding
+
+Kan for eksempel være noe sånt:
+
+    ./dittbrukernavn/bin/json-message "Hei på deg!"
+
+## Program for å lese JSON-meldiner
+
+Rå JSON er ikke så lett å lese! Kanskje vi kan få tilbake formatet vi har på
+tekstmeldingene?
+
+    ./dittbrukernavn/bin/view-json-messages
+
+som skriver ut:
+
+    teodorlu: Hei på deg!
+
+## Topic i json-meldinger
+
+På meldingsystemer er det vanlig å skille mellom "Topic", eller "kanal". I JSON
+kan vi for eksempel modellere det sånn:
+
+    {
+        "username": "teodorlu",
+        "topic": "python",
+        "message": "Jeg valgte å bruke Python til å scripe, sjekk ut scriptene mine!"
+    }
