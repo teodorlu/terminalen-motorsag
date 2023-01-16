@@ -17,4 +17,4 @@ Systemet setter flere variabler for oss. Prøv følgende:
     echo $PATH
     echo $SHELL
     echo $HOME
-    echo PWD
+    echo $PWD
