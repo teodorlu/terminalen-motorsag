@@ -1,5 +1,0 @@
-# Hvordan legge til en mappe i path
-
-For å legge til en mappe i path:
-
-    PATH=/home/teodorlu/mine/mapper/bin:$PATH

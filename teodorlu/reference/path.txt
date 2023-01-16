@@ -1,0 +1,20 @@
+# Variabelen PATH
+
+Du kan bruke programmer som ls, cat og date fra hvilkensomhelst mappe. Hvorfor
+det?
+
+ls, date og cat er vanlige programmer. På mitt system ligger de her:
+
+    /bin/ls
+    /bin/cat
+    /bin/date
+
+og hvis jeg ser i PATH-variabelen, finner jeg /bin.
+
+Derfor kan vi bruke ls, cat og date fra hvilkensomhelst mappe!
+
+## Hvordan legge til en mappe i PATH
+
+For å legge til en mappe i path:
+
+    PATH=/home/teodorlu/mine/mapper/bin:$PATH
