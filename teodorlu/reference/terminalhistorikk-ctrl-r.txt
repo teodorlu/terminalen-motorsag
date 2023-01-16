@@ -1,0 +1,23 @@
+# Hent fra terminalhistorikken din med ctrl+r
+
+Jeg bruker mange flere kommandoer aktivt enn jeg husker kommandoer. For å hente
+alle kommandoene jeg ikke husker, bruker jeg ctrl+r.
+
+For eksempel bruker jeg ofte denne kommandoen:
+
+    git rev-parse --show-toplevel
+
+Men jeg skriver ikke hele kommandoen på nytt når jeg trenger den. Jeg bruker
+ctrl+r!
+
+    ctrl+r
+    top
+    PIL HØYRE
+
+Nå kan jeg redigere den.
+
+Det er også mulig å kjøre kommandoen direkte med ctrl+r:
+
+    ctrl+r
+    top
+    ENTER
