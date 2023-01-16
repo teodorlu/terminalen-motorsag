@@ -1,0 +1,5 @@
+# Send en melding
+
+TODO
+
+Rett fram, bruk script som finnes.
