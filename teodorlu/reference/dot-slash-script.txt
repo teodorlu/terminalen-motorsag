@@ -1,0 +1,13 @@
+# ./script - hva betyr det?
+
+I Bash og ZSH skiller vi mellom script du har "installert" og script du "ikke har installert".
+
+Scriptene du har installert kan du kjøre ved å bare skrive navnet på scriptet:
+
+    ls
+    pwd
+
+Script du ikke har installert må du skrive en sti for å kjøre:
+
+    ./script               # Prøver å kjøre filen script fra mappa du er i nå
+    ./teodorlu/bin/script  # Prøver å kjøre filen script fra mappa "teodorlu/bin"
