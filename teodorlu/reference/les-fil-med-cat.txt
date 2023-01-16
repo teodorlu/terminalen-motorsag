@@ -1,0 +1,5 @@
+# Hvordan lese filer med cat
+
+Brukt cat til å lese en fil:
+
+    cat teodorlu/motivation.txt
