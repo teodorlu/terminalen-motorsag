@@ -13,6 +13,18 @@ Når vi kjører script.sh med ./script.sh, kan scriptet IKKE redigere variabler.
 
 Men her får vi med oss alle variabler fra script.sh!
 
+## Konkret eksempel
+
+    $ cat script.sh
+    MYVAR=endret
+    $ MYVAR=original
+    $ zsh script.sh
+    $ echo $MYVAR
+    original
+    $ source ./script.sh
+    $ echo $MYVAR
+    endret
+
 ## Hvorfor er det sånn?
 
 Fordi vi trenger begge. Vi trenger å kunne lage et miljø der variabler er satt,
