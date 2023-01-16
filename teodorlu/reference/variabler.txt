@@ -1,0 +1,10 @@
+# Variabler i Bash og ZSH
+
+Du kan sette dine egne variabler:
+
+    MITTNAVN=Teodor
+    echo Mitt navn er $MITTNAVN
+
+Det viser:
+
+    Mitt navn er Teodor
