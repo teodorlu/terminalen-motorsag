@@ -1,0 +1,18 @@
+# Hvorfor terminalkurs?
+
+Motivasjon:
+
+1. Rask feedback
+   1. Farten feedback styrer hvor effektivt du kan jobbe
+   2. Som utvikler kan du lage dine feedback loops
+   3. Terminalen er en god måte å lage seg feedback loops som utvikler
+2. Generelle verktøy
+   1. Spesielle verktøy kan brukes til å jobbe med akkurat det du jobber med nå
+   2. Generelle verktøy kan du ta med deg videre
+   3. Terminalen er et godt generelt verktøy for utvikling
+
+Mål for i dag:
+
+1. Dere vet (litt) hva dere kan bruke terminalen til
+2. Dere kan skrive korte script
+3. Dere klarer å chatte med hverandre med chattesystemet vi har laget.
