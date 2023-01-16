@@ -3,4 +3,7 @@
 ./teodorlu/bin/m-message "$@"
 git add .
 git commit -m "⛓🪚🔥 BY-CHAINSAWBOT"
+
+# Run git pull --rebase && git push repeatedly to avoid race condition
+# ... when two people push at the same time.
 ./teodorlu/bin/m-repeatedly-try bash -c "git pull --rebase && git push"
