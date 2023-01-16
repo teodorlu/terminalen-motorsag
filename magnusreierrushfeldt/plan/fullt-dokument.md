@@ -9,7 +9,7 @@ Vi skal lage et chattesystem, for enkelt å sende meldinger til hverandre og les
 3. Teodor kommer med forslag til hvordan dette kan automatiseres med et skript, hvis mulig. Dette gjør han 2-3 ganger, deretter lar vi studentene få prøve seg på å løse ting
 4. Gjenta punkt 1-3
 
-# Kurset starter her:
+# Oppgaver
 
 ## Lage ny tom melding
 
