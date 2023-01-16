@@ -1,1 +1,3 @@
 # Bruk pipes til å koble sammen kommandoer
+
+TODO
