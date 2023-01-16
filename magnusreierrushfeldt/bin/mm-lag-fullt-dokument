@@ -9,4 +9,4 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-find "$1" -type f | grep ^.*\.txt | sort | xargs cat > "$1/fullt-dokument.md"
+find "$1" -type f | grep "^.*\.txt" | sort | xargs cat > "$1/fullt-dokument.md"
