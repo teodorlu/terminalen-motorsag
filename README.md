@@ -1,12 +1,5 @@
 Velkommen til en workshop utenom det vanlige!
 
-[repo]: https://github.com/iterate/terminalen-motorsag/
-[web]: https://terminalen-motorsag.app.iterate.no/
-
-[Repo][repo] | [Web][web]
-
-&nbsp;
-
 <span>
 <img height="250px" src="https://hybrida.no/static/img/Griff%2C%20drop%20shadow.png" />
 &nbsp; &nbsp; &nbsp; &nbsp;
@@ -17,9 +10,9 @@ Velkommen til en workshop utenom det vanlige!
 
 # Hvordan løpe med motorsag: terminalen i praksis
 
-På onsdag 7. september skal vi presse grensene for interaktivitet i terminalen.
+Vi skal sammen presse grensene for interaktivitet i terminalen.
 
-Vi fra Iterate gleder oss!
+Dette blir bra!
 
 ## Ting du trenger på workshop
 
