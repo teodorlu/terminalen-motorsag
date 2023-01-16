@@ -18,11 +18,11 @@ Dette blir bra!
 
 Du trenger:
 
-- En bash-kompatibel-terminal
+- En terminal med Bash eller ZSH
 - Github-konto, og git-kommando på terminalen med tilgang til Github-kontoen din
-- En enkel teksteditor
+- En teksteditor
 
-Les videre hvis du lurer på hvordan du får en bash-kompatibel-terminal og fungerende Git.
+Les videre hvis du lurer på hvordan du en terminal med Bash eller ZSH og fungerende Git.
 Vi setter av tid på starten av workshopen for å hjelpe folk i gang.
 
 [vscode]: https://code.visualstudio.com/
