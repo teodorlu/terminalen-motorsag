@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+./teodorlu/bin/m-message "$@"
+git add .
+git commit -m "⛓🪚🔥 BY-CHAINSAWBOT"
+./teodorlu/bin/m-repeatedly-try bash -c "git pull --rebase && git push"

@@ -1,11 +1,15 @@
 #!/usr/bin/env bash
 
-set -e # Terminate script when something goes wrong
+# Resolve relative paths to full paths
+#
+#
+
+set -e
 
 if [ -z $1 ]; then
-    echo "Usage:"
+    echo "Example usage:"
     echo ""
-    echo "  ./realpath PATH"
+    echo "  teodorlu/bin/m-realpath ./folder/subfolder"
     exit 1
 fi
 
