@@ -1,1 +1,12 @@
-# 
+# Hva skal vi gjøre?
+
+Vi skal lage et chattesystem, for enkelt å sende meldinger til hverandre og lese dem via terminalen og editoren vår. Dette skal vi gjøre gjennom flere steg som viser hvor enkelt man kan jobbe i terminalen og bruke den for å forbedre arbeidsprosessen din.
+
+# Hvordan vil vi jobbe?
+
+1. Vi går løs på en ny oppgave
+2. Magnus prøver å løse den i terminal med terminalkommandoer
+3. Teodor kommer med forslag til hvordan dette kan automatiseres med et skript, hvis mulig
+4. Gjenta punkt 1-3
+
+# Hva skal vi gjøre?
