@@ -8,3 +8,13 @@ Du kan sette dine egne variabler:
 Det viser:
 
     Mitt navn er Teodor
+
+## Innebygde variabler
+
+Systemet setter flere variabler for oss. Prøv følgende:
+
+    echo $USER
+    echo $PATH
+    echo $SHELL
+    echo $HOME
+    echo PWD
