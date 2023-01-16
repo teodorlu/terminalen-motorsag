@@ -8,10 +8,8 @@ Eksempler:
 
     #!/usr/bin/env python3
 
-"hash bang"
-"shell bang"
-"she bang"
-"shebang"
+Hvorfor "shebang"?
+"#!" --> "hash bang" --> "shell bang" --> "she bang" --> "shebang"
 
 Med rett shebang kan vi skrive shell scripts i hvilket språk vi vil.
 
@@ -19,6 +17,6 @@ Uten shebang må vi kjøre Python-script sånn:
 
      python script.py
 
-Med shebang kan vi gjøre sånn:
+Med shebang kan vi starte et Python-script sånn:
 
     ./script.py
