@@ -1,0 +1,20 @@
+# Hvordan redigere variabler med source
+
+Når du kjører et script, kan IKKE scriptet redigere variabler i skallet.
+For eksempel:
+
+     MITTNAVN=Teodor
+     ./script.sh
+
+Når vi kjører script.sh med ./script.sh, kan scriptet IKKE redigere variabler.
+
+     MITTNAVN=Teodor
+     source ./script.sh
+
+Men her får vi med oss alle variabler fra script.sh!
+
+## Hvorfor er det sånn?
+
+Fordi vi trenger begge. Vi trenger å kunne lage et miljø der variabler er satt,
+og kunne bruke det med source. Og vi trenger at hvert script kan ha sin eget
+miljø -- hvis alle kan sette variabler, blir det kaos.
