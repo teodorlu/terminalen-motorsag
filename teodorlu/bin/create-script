@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+set -e
+
+SCRIPT="$1"
+SCRIPT_PATH="$USER/bin"
+
+mkdir -p "$SCRIPT_PATH"
+touch "$SCRIPT_PATH/$SCRIPT"
+chmod +x "$SCRIPT_PATH/$SCRIPT"
+
+cat << EOF > "$SCRIPT_PATH/$SCRIPT"
+#!/usr/bin/env bash
+
+echo "Hei \$USER!"
+echo "Bare slett disse echo-linjene og skriv noe du vil ha."
+EOF
