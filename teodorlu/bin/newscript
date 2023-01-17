@@ -1,3 +1,15 @@
 #!/usr/bin/env bash
 
-./teodorlu/bin/m-watch 10 bash -c 'git pull && ls'
+SCRIPT="$1"
+PATH="$USER/bin"
+
+mkdir -p "$PATH"
+touch "$PATH/$SCRIPT"
+chmod +x "$SCRIPT"
+
+cat << EOF > "$PATH/$SCRIPT"
+#!/usr/bin/env bash
+
+echo "Hei $USER\!"
+echo "Bare slett disse echo-linjene og skriv noe du vil ha."
+EOF
