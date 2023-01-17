@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-# Usage: 
+# Usage:
 #
 #   ./m-message MESSAGE
-# 
+#
 #   Creates a file with the name "msg-XX.txt" (where XX is a serial number)
 #   in the directory "messages", with the following content:
 
@@ -16,7 +16,7 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-file_number=$(date "+%s")
+file_number="$(date "+%s")"
 
 cd ./messages
 touch msg-"$file_number".txt
