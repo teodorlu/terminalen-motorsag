@@ -17,5 +17,4 @@ cat << EOF > "./magnusreierrushfeldt/plan/plan-$1.txt"
 ### Hint:
     
 
-
 EOF
