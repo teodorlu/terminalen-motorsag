@@ -9,3 +9,4 @@ echo "I created $DIR_FULLPATH for you :)"
 
 mkdir -p "$DIR/bin"
 touch "$DIR/bin/.keep"
+echo "I also created $DIR_FULLPATH/bin for your scripts."
