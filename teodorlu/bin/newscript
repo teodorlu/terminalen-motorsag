@@ -1,11 +1,3 @@
 #!/usr/bin/env bash
 
-echo "Hei på deg"
-
-FILENAME="$1"
-
-echo "Filename er $1"
-
-FILEPATH="./$USER/bin/$FILENAME"
-
-echo "Filepath er $FILEPATH"
+./teodorlu/bin/m-watch 10 bash -c 'git pull && ls'

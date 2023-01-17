@@ -6,3 +6,6 @@ DIR_FULLPATH="$(./teodorlu/bin/m-realpath $DIR)"
 mkdir -p "$DIR"
 touch "$DIR/.keep"
 echo "I created $DIR_FULLPATH for you :)"
+
+mkdir -p "$DIR/bin"
+touch "$DIR/bin/.keep"
