@@ -1,0 +1,8 @@
+## Lage ny tom fil
+
+For å lage chattesystemet vårt, så må vi først kunne lage meldinger. La oss se om vi får til å opprette en tom tekstfil med terminalen.
+
+### Hint:
+
+    touch FIL_STI
+

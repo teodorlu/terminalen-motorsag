@@ -1,0 +1,8 @@
+## Sjekk ut innholdet i en fil
+
+Du må faktisk ikke bruke editoren for å se hva som er innholdet i en fil. Terminalen kan brukes til dette!
+
+### Hint:
+    
+    cat FIL_STI
+

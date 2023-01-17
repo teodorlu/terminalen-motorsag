@@ -1,0 +1,9 @@
+## Lage ny tom mappe
+
+For å begynne å jobbe med og lage våre egne ting, så må vi ha et sted å legge dem.
+
+### Hint:
+    mkdir MAPPE
+
+    ./teodorlu/bin/m-makehome
+

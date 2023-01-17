@@ -1,0 +1,11 @@
+## Fyll tom melding med kort tekst
+
+Nå som vi får til å lage tomme meldinger, hadde det vært nyttig å putte tekst i dem, så vi får meldinger med innhold.
+
+### Hint:
+
+    echo TEKST
+
+    OUTPUT_FRA_KOMMANDO > FIL_STI
+
+    

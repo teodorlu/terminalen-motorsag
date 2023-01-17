@@ -1,0 +1,13 @@
+## Navigere i filtre
+
+Det er ikke bare bare å skaffe seg oversikt over hva man finner i en mappe og hvor man kan gå. Her er noen hint
+
+### Hint:
+    tree
+
+    tree MAPPE
+
+    tree MAPPE -d
+
+    cd FIL_STI
+

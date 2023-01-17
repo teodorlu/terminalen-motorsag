@@ -1,0 +1,11 @@
+## Få hjelp om kommandoer
+
+Det er mange kommandoer man kan bruke i terminalen, men ikke alltid så lett å vite hvordan man bruker dem. Heldigvis finnes det hjelp å få.
+
+### Hint:
+    KOMMANDO --help
+
+    man KOMMANDO
+
+    ./teodorlu/bin/m-find-help
+
