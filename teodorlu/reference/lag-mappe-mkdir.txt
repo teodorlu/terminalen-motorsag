@@ -1,0 +1,7 @@
+# Lag en mappe med mkdir
+
+Eksempel:
+
+    mkdir minmappe
+
+Nå har du laget en mappe som heter "minmappe"! :)
