@@ -1,4 +1,4 @@
-# Hva skal vi gjøre?
+Code # Hva skal vi gjøre?
 
 Vi skal lage et chattesystem, for enkelt å sende meldinger til hverandre og lese dem via terminalen og editoren vår. Dette skal vi gjøre gjennom flere steg som viser hvor enkelt man kan jobbe i terminalen og bruke den for å forbedre arbeidsprosessen din.
 
