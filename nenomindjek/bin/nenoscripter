@@ -1,3 +1,11 @@
 #!/usr/bin/env bash
 
-echo hei $USER
+./teodorlu/bin/m-message "$@ lol"
+git add .
+git commit -m "$USER koder som en gal"
+
+# Run git pull --rebase && git push repeatedly to avoid race condition
+# ... when two people push at the same time.
+./teodorlu/bin/m-repeatedly-try bash -c "git pull --rebase && git push"
+
+echo penis
