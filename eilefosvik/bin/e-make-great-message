@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+dissidenten=$1
+
+Diss="Litt glatte sko eller $dissidenten?"
+
