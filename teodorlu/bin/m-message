@@ -2,7 +2,7 @@
 
 # Usage: 
 #
-#   ./message [-f FILE_NAME] MESSAGE
+#   ./m-message MESSAGE
 # 
 #   Creates a file with the name "msg-XX.txt" (where XX is a serial number)
 #   in the directory "messages", with the following content:
