@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+set -e
+
+if [ -z "$1" ]; then
+    echo "Usage:"
+    echo ""
+    echo "./mm-ny-plan-fil FIL_NUMMER"
+    exit 1
+fi
+
+cat << EOF > "./magnusreierrushfeldt/plan/plan-$1.txt"
+## 
+
+
+
+### Hint:
+    
+
+EOF
