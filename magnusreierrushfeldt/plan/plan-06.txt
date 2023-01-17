@@ -1,0 +1,8 @@
+## Dele kode og meldinger
+
+Vi kan dele filer med hverandre effektivt med `git`. Dette verktøyet kan ta litt tid å lære seg ordentlig, men heldigvis har vi laget hjelpeverktøy til deg.
+
+### Hint:
+    git KOMMANDO        # status, add, commit, pull, push, ...
+
+    ./teodorlu/bin/m-commit-and-push

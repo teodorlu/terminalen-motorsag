@@ -8,4 +8,3 @@ Nå som vi får til å lage tomme meldinger, hadde det vært nyttig å putte tek
 
     OUTPUT_FRA_KOMMANDO > FIL_STI
 
-    

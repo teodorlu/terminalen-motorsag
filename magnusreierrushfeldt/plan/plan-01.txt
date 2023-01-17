@@ -5,4 +5,5 @@ Du må faktisk ikke bruke editoren for å se hva som er innholdet i en fil. Term
 ### Hint:
     
     cat FIL_STI
+    # Eksempel: cat ./magnusreierrushfeldt/plan/plan-01.txt
 

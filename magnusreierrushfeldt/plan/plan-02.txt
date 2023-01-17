@@ -4,8 +4,10 @@ Det er mange kommandoer man kan bruke i terminalen, men ikke alltid så lett å 
 
 ### Hint:
     KOMMANDO --help
+    # Eksempel: cat --help
 
     man KOMMANDO
+    # Eksempel: man cat
 
     ./teodorlu/bin/m-find-help
 
