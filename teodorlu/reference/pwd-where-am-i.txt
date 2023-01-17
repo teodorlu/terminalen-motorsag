@@ -1,0 +1,6 @@
+# Bruk pwd til å se hvor du er
+
+På min PC kan jeg bruke pwd sånn:
+
+    $ pwd
+    /Users/teodorlu/dev/iterate/terminalen-motorsag
