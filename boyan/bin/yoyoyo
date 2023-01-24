@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -e
+
+git add .
+git commit -m "⛓🪚🔥 hilsen $USER"
+
+echo "Hei!"
+echo "Er du deprimert? 🤣"
