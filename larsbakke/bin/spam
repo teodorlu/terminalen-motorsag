@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+file_number="$(date "+%s")"
+
+cd ./messages
+touch msg-"$file_number".txt
+echo "$USER: $*<3 (._.)" > msg-"$file_number".txt
