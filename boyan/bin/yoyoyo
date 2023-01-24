@@ -2,8 +2,14 @@
 
 set -e
 
-git add .
-git commit -m "⛓🪚🔥 hilsen $USER"
+file_number="$(date "+%s")"
 
-echo "Hei!"
-echo "Er du deprimert? 🤣"
+cd ./messages
+touch msg-"$file_number".txt
+echo "$USER: $*Vær så snill og gi meg sokker 🦖" > msg-"$file_number".txt
+
+
+git pull
+git add *
+git commit -m "Socks cures depression - Boyan"
+git push
