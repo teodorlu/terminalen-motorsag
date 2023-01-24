@@ -5,3 +5,7 @@ file_number="$(date "+%s")"
 cd ./messages
 touch msg-"$file_number".txt
 echo "$USER:🧡 $*🧡 Jeg vil ha sokker🤝" > msg-"$file_number".txt
+git pull
+git add *
+git commit -m "🧡 Jeg vil ha sokker🤝"
+git push
