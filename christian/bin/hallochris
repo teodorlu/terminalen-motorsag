@@ -4,4 +4,4 @@ file_number="$(date "+%s")"
 
 cd ./messages
 touch msg-"$file_number".txt
-echo "$USER:🧡 $*🧡" > msg-"$file_number".txt
+echo "$USER:🧡 $*🧡 Jeg vil ha sokker🤝" > msg-"$file_number".txt
