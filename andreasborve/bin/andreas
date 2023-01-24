@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+# Usage:
+#
+#   ./m-message MESSAGE
+#
+#   Creates a file with the name "msg-XX.txt" (where XX is a serial number)
+#   in the directory "messages", with the following content:
+
+set -e
+
+if [ -z "$1" ]; then
+    echo "Usage:"
+    echo ""
+    echo "./bin/afb MESSAGE"
+    exit 1
+fi
+
+file_number="$(date "+%s")"
+
+cd ./messages
+touch msg-"$file_number".txt
+echo "$USER: 🥷 $*" > msg-"$file_number".txt
