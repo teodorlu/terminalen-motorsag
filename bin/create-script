@@ -2,6 +2,13 @@
 
 set -e
 
+if [ -z "$1" ]; then
+    echo "Usage:"
+    echo ""
+    echo "./bin/create-script SCRIPT"
+    exit 1
+fi
+
 SCRIPT="$1"
 SCRIPT_PATH="$USER/bin"
 
