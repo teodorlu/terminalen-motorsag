@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+./bin/watch 10 bash -c 'git pull && ls'
