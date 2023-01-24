@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 ./bin/message "$@"
 git add .
 git commit -m "⛓🪚🔥 BY-CHAINSAWBOT"
