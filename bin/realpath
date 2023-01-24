@@ -9,7 +9,7 @@ set -e
 if [ -z $1 ]; then
     echo "Example usage:"
     echo ""
-    echo "  teodorlu/bin/m-realpath ./folder/subfolder"
+    echo "  bin/realpath ./folder/subfolder"
     exit 1
 fi
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 DIR=./"$USER"
-DIR_FULLPATH="$(./teodorlu/bin/m-realpath $DIR)"
+DIR_FULLPATH="$(./bin/realpath $DIR)"
 
 mkdir -p "$DIR"
 touch "$DIR/.keep"

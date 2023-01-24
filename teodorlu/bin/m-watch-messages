@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-./teodorlu/bin/m-watch 1 ./teodorlu/bin/m-view-messages

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+./bin/watch 1 ./bin/view-messages
