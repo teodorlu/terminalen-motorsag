@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo "Hei $USER!"
+echo "Bare slett disse echo-linjene og skriv noe du vil ha."
