@@ -1,15 +1,11 @@
 #!/usr/bin/env bash
 
-# Resolve relative paths to full paths
-#
-#
-
 set -e
 
 if [ -z $1 ]; then
     echo "Example usage:"
     echo ""
-    echo "  bin/realpath ./folder/subfolder"
+    echo "  ./bin/realpath ./folder/subfolder"
     exit 1
 fi
 
