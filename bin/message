@@ -12,7 +12,7 @@ set -e
 if [ -z "$1" ]; then
     echo "Usage:"
     echo ""
-    echo "./message MESSAGE"
+    echo "./bin/message MESSAGE"
     exit 1
 fi
 
