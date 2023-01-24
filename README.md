@@ -10,7 +10,8 @@ Velkommen til en workshop utenom det vanlige!
 
 &nbsp;
 
-Vil du jobbe i Iterate? [Trykk her][jobbe-i-iterate].
+Vil du ha sommerjobb?
+Søk [Iterate Sommerakselerator 2023][jobbe-i-iterate]!
 
 [jobbe-i-iterate]: https://forms.gle/xQNRQRcrtLSiguYV6
 
