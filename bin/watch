@@ -1,12 +1,18 @@
 #!/usr/bin/env bash
 
-
 set -e # Terminate script when something goes wrong
 
 if [ -z "$1" ]; then
     echo "Usage:"
     echo ""
-    echo "  ./teodorlu/bin/m-watch SLEEP_TIME COMMAND..."
+    echo "  ./bin/watch SLEEP_TIME COMMAND..."
+    exit 1
+fi
+
+if [ -z "$2" ]; then
+    echo "Usage:"
+    echo ""
+    echo "  ./bin/watch SLEEP_TIME COMMAND..."
     exit 1
 fi
 
