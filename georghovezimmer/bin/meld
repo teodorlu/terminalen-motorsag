@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+echo "Hei $USER!"
+
+cd ./messages
+touch msg-"$file_number".txt
+echo "$USER: Kjørr" > msg-"$file_number".txt
