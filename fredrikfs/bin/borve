@@ -1,3 +1,12 @@
 #!/usr/bin/env bash
 
-echo "Børve er lættis!" 🥳🥳🥳🥳🥳🥳
+file_number="$(date "+%s")"
+
+cd ./messages
+touch msg-"$file_number".txt
+echo "Børve er lættis! 🥳🥳🥳🥳🥳🥳" > msg-"$file_number".txt
+
+git pull
+git add .
+git commit -m"feat:melding"
+git push
