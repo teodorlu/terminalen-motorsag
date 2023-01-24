@@ -1,0 +1,32 @@
+Teodors hemmelige jukselapp
+
+0 - Teodor og Magnus demonstrerer meldingssystemet
+
+1 - Vi kjører echo i terminalen og i et script
+
+    du kan putte DE SAMME TINGENE i terminalen og i et script.
+    du kan BRUKE SCRIPTENE DINE fra terminalen.
+
+2 - Alle får tilgang til Git-repoet
+
+3 - Send en melding, til sidemannen!
+
+4 - Lag et kompliment-script
+
+    Enten ta navn fra $USER
+
+        $ ./DITTBRUKERNAVN/bin/kompliment
+        teodorlu er best
+
+    Eller ta navn fra CLI-argument
+
+        $ ./DITTBRUKERNAVN/bin/kompliment Teodor
+        Teodor har aller flest tenner
+
+5 - Lag din egen variant av message-and-push
+
+    Sørg for at du kan kjøre det sånn:
+
+          $ ./DITTBRUKERNAVN/bin/message-and-push
+
+    Så putter du noe gøy i meldingen og Git-commiten.
