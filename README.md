@@ -10,8 +10,11 @@ Velkommen til en workshop utenom det vanlige!
 
 &nbsp;
 
-Vil du ha sommerjobb?
+Vil du jobbe med ditt eget prosjekt i sommer?
+
 Søk [Iterate Sommerakselerator 2023][jobbe-i-iterate]!
+
+Spørsmål om sommerjobb/fast jobb? Send mail til camilla@iterate.no
 
 [jobbe-i-iterate]: https://forms.gle/xQNRQRcrtLSiguYV6
 
