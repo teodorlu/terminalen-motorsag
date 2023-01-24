@@ -1,16 +1,18 @@
 Velkommen til en workshop utenom det vanlige!
 
+&nbsp;
+
 <span>
 <img height="250px" src="https://hybrida.no/static/img/Griff%2C%20drop%20shadow.png" />
 &nbsp; &nbsp; &nbsp; &nbsp;
 <img height="250px" src="https://uploads-ssl.webflow.com/5ea18b09bf3bfd55814199f9/5ea18b09bf3bfda137419a00_petri_square_03.gif" />
 </span>
 
+&nbsp;
+
 Vil du jobbe i Iterate? [Trykk her][jobbe-i-iterate].
 
 [jobbe-i-iterate]: https://forms.gle/xQNRQRcrtLSiguYV6
-
-&nbsp;
 
 # Hvordan løpe med motorsag: terminalen i praksis
 
