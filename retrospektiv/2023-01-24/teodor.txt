@@ -11,7 +11,7 @@ Observasjoner:
 2. Det var ikke noen tydelig oppgaveprogresjon
    1. "Når jeg er ferdig, hva skal jeg gjøre da??"
    2. De som kunne mye kom fort et stykke, og ble så sittende og /vente/
-3. Det var ikke noen tydelig forklaring av enkeltoknsepter.
+3. Det var ikke noen tydelig forklaring av enkeltkonsepter. Feks "hva gjør echo?".
 
 Mulige tiltak:
 
