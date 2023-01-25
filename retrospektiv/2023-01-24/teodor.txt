@@ -8,6 +8,7 @@ Observasjoner:
    3. Vi hadde ikke skrevet detaljerte kom-i-gang-instruksjoner
    4. Vi kunne sagt "hvis du trenger hjelp til å komme i gang kan du komme tidligere"
    5. Vi "ventet" på at alle skulle komme i gang. Resultatet var at vi fikk med alle/de fleste, men de som kunne mye måtte vente litt.
+   6. Virket som folk lærte en del ila kurset og ble varmere i trøya i terminalen etterhvert. Det var gøy å se.
 2. Det var ikke noen tydelig oppgaveprogresjon
    1. "Når jeg er ferdig, hva skal jeg gjøre da??"
    2. De som kunne mye kom fort et stykke, og ble så sittende og /vente/
@@ -32,3 +33,5 @@ Mulige tiltak:
     help - hvis hvilke hjelp-kommandoer som er tilgjengelig
 
     gi eksempler fra ./teodorlu/reference/*
+
+3. Be dem følge jukselapp.txt hele veien, så kan vi heller ta en 100% hjelpe rolle? 
