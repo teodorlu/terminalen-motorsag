@@ -1,0 +1,34 @@
+Alt i alt er jeg svært fornøyd! Men det er alltid forbedringspotensiale.
+
+Observasjoner:
+
+1. Vi brukte over en time på å få all i gang
+   1. Diverse grunner: Git-oppsett, Windows-trøbbel (WSL, filendinger, forskjellig SSH-auth på Windows-filsystemet og i Linux-filsystemet)
+   2. Vi testet ikke skikkelig på Windows i forkant
+   3. Vi hadde ikke skrevet detaljerte kom-i-gang-instruksjoner
+   4. Vi kunne sagt "hvis du trenger hjelp til å komme i gang kan du komme tidligere"
+   5. Vi "ventet" på at alle skulle komme i gang. Resultatet var at vi fikk med alle/de fleste, men de som kunne mye måtte vente litt.
+2. Det var ikke noen tydelig oppgaveprogresjon
+   1. "Når jeg er ferdig, hva skal jeg gjøre da??"
+   2. De som kunne mye kom fort et stykke, og ble så sittende og /vente/
+3. Det var ikke noen tydelig forklaring av enkeltoknsepter.
+
+Mulige tiltak:
+
+1. et story-cli - der man kan jobbe seg gjennom
+
+   subkommandoer:
+
+        story - si hvilke subkommandoer som er tilgjengelig
+
+        story init - kopier ./story/* inn i ./$USER/story/*
+
+        story next - les første fra ./$USER/story/
+
+        story done - slett første fra ./$USER/story/
+
+2. et help-cli
+
+    help - hvis hvilke hjelp-kommandoer som er tilgjengelig
+
+    gi eksempler fra ./teodorlu/reference/*
